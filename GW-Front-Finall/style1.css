@@ -1,0 +1,157 @@
+.logo {
+    display: block;
+    width: 70px !important;
+    height: 60px !important;
+}
+
+.image-wrapper {
+    max-width: 100%;
+    height: 23vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.caro-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media screen and (min-width: 576px) {
+    .carousel-inner {
+        display: flex;
+    }
+    .carousel-item {
+        display: block;
+        position:sticky;
+        margin-right: 0;
+        flex: 0 0 calc(100%/3);
+    }
+    .image-wrapper {
+        height: 23vw;
+    }
+
+}
+
+.carousel-inner {
+    padding: 1em;
+}
+
+.card {
+    margin: 0 0;
+}
+
+.card-body1 {
+    border-radius: 10px;
+    justify-items: end;
+}
+
+.cardBackgroundBoy{
+    background-position: center;
+    background-image: url('./images/boy.avif');
+    /* background-color: rgb(52, 60, 150); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.cardBackgroundGirl{
+    background-position: center;
+    background-image: url('./images/girl.avif');
+    /* background-color: rgb(52, 60, 150); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+
+.image-wrapper2 {
+    max-width: 100%;
+    height: 17vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.image-wrapper3 {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2px;
+}
+
+.cardBackground1_3{
+    background-position: center;
+    /* background-image: url('./images/1_3.jpg'); */
+    background-color: rgb(96, 105, 206);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.cardBackground3_5{
+    background-position: center;
+    /* background-image: url('./images/3_5.jpg'); */
+    background-color: rgb(96, 105, 206);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.cardBackground5_7{
+    background-position: center;
+    /* background-image: url('./images/5_7.jpg'); */
+    background-color: rgb(96, 105, 206);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.cardBackground7_10{
+    background-position: center;
+    /* background-image: url('./images/7_10.jpeg'); */
+    background-color: rgb(96, 105, 206);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.cardBackground10_12{
+    background-position: center;
+    /* background-image: url('./images/10_12.jpg'); */
+    background-color: rgb(96, 105, 206);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@font-face {
+    font-family: iranyekan;
+    src: url("./iranyekanwebregular.e31c09af.woff2");
+    font-weight: 400;
+}
+
+* {
+    font-family: iranyekan;
+    font-weight: 400;
+}
+
+
+
+.fit-cover {
+    object-fit: cover;
+  }
+
+
+
